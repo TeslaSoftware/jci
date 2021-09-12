@@ -5,12 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JCI</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
   </head>
   <body>
-    This is body
-
-
-	<script src="scripts.js"></script>
+    <h3 id="brand" class="ui top attached header center aligned">
+        Julien Caparelli Inc.
+    </h3>
+    <main>
+        <div class="ui card">
+            <div class="content center aligned">
+                <span class="header">Select your payment method: </span>
+            </div>
+            <div class="content logo-container">
+                <img class="payment-logo" src="./Assets/venmo_logo_blue.png"/>
+            </div>
+            <div class="content logo-container">
+                <!-- PayPal Logo -->
+                <img class="payment-logo" src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_SbyPP_mc_vs_dc_ae.jpg" alt="PayPal Acceptance Mark">
+                <!-- PayPal Logo -->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contact-container">
+            <div><b>Questions? Feel free to contact us:</b></div>
+            <div>
+                <i class="phone icon"></i>Call or text:
+                <a href="tel:5165139821" aria-label="Click to call JCI">
+                    <span class="contact-item-padding-left">516-513-9821</span>
+                </a>                
+            </div>
+            <div>
+                <i class="envelope icon"></i>Email: 
+                <a href="mailto:jci.julien@gmail.com?subject=I%20have%20a%20question%20regarding%20the%20payment&body=Hi%20Julien!%0D%0AI%20have%20a%20question%20regarding%20the%20payment."
+                    aria-label="Click to e-mail JCI"
+                >
+                    <span class="contact-item-padding-left">jci.julien@gmail.com</span>
+                </a>                
+            </div>
+        </div>        
+    </footer>
+	
   </body>
 </html>
