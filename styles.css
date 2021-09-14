@@ -20,19 +20,21 @@ main {
     justify-content: center;
 }
 
-.ui.card>.content.logo-container {
+.ui.card .content.logo-container {
     min-height: 4rem;
     padding: 2rem 1rem;
     display: flex;
     justify-content: center;
 }
 
-.ui.card > .content > .header {
-    color: rgba(0,0,0,0.7)
-}
-
 .payment-logo {
     max-width: 16rem;
+    transition: ease-in-out 0.3s;
+}
+
+.payment-logo:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.7s;
 }
 
 footer {
