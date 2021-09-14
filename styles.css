@@ -4,6 +4,10 @@
     --primary3: #67b7f7;
 }
 
+body {
+    background-color: rgb(246 249 251);
+}
+
 #brand {
     background-color: var(--primary1);
     color: white;
